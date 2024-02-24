@@ -1,0 +1,37 @@
+.favorite-btn,
+.search-bar {
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+    transition: width 0.5s;
+}
+
+.favorite-btn {
+    background-color: #D93A00;
+    border-color: #D93A00;
+    width: 10%; 
+	color: white;
+}
+
+.favorite-btn:hover {
+	background-color: #a62c00;
+}
+
+.search-bar {
+    background-color: #1A282D;
+    color: #526358;
+    border: none;
+    width: 25%;
+    padding-left: 10px;
+}
+
+.search-bar:focus {
+    width: 87%; 
+}
+
+.search-container {
+    position: relative;
+}

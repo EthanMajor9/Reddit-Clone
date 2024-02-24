@@ -1,0 +1,66 @@
+.post {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+	background-color: #0B1416;
+	position: relative;
+}
+
+h3 {
+	margin-bottom: 5px;
+	color: white;
+}
+
+img {
+	max-width: 100%; 
+}
+
+button {
+	text-decoration: none;
+	color: white;
+	border-radius: 8px;
+	border: #526358;
+	background-color: #D93A00;
+	margin-left: 10px;
+	margin-top: 10px;
+    padding: 1.5px 5px;
+}
+
+button:hover {
+	background-color: #a62c00;
+}
+
+a:hover {
+	color: #344038; 
+	text-decoration: underline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.author {
+	position: absolute; 
+	top: 0; 
+	left: 10px; 
+	margin: 0;
+}
+
+.readmore-btn {
+    background-color: #D93A00;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: small;
+    padding: 1px 5px;
+}
+
+.readmore-btn:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3 {
+	text-align: center;	
+	margin-right: 30px;
+}
